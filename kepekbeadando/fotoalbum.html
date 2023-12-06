@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="galleria-1.6.1/dist/galleria.js"></script>
+    <script src="galleria-1.6.1/dist/themes/classic/galleria.classic.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#images').galleria(
+                width = 500,
+                height = 500
+            );
+        });
+    </script>
+    <style>
+        .galleria {
+            margin: auto;
+            width: 100%;
+            height: auto;
+        }
+        .galleria-container{
+            margin :auto;
+        }
+    </style>
+</head>
+
+<body>
+    <article id="images" class="galleria">
+        <img src="felhasznalhatok/fotoalbum1.jpg" alt="">
+        <img src="felhasznalhatok/fotoalbum2.jpg" alt="">
+        <img src="felhasznalhatok/fotoalbum3.jpg" alt="">
+        <img src="felhasznalhatok/fotoalbum4.jpg" alt="">
+        <img src="felhasznalhatok/fotoalbum5.jpg" alt="">
+        <img src="felhasznalhatok/fotoalbum6.jpg" alt="">
+    </article>
+
+
+</body>
+
+</html>
